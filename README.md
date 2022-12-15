@@ -39,3 +39,10 @@ Initial Screen (Formulary):
   <br>
   <i>Forgot Password Screen</i>
 </p>
+
+
+<p align="center">
+  <img height=200 src="/img/Logged.png" >
+  <br>
+  <i>User Screen</i>
+</p>
