@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Unbounded:wght@300&family=Yeseva+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background21.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+
+.form1 form {
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', 'Arial';
+}
+
+.form1 #login {
+  width: 100%;
+  padding: 12px 3px;
+  margin: 8px 0;
+  color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  background-color: #297373;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.form1 #Password {
+    width: 100%;
+    padding: 12px 3px;
+    margin: 8px 0;
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    background-color: #297373;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+.form1 #envio {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 3px;
+    margin: 8px 0;
+    color: #39393A;
+    border-color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Oswald', 'Arial';
+    border-radius: 30px;
+}
+
+#envio:hover{
+    transform: scale(1.1);
+    background-color: rgba(236, 248, 72, 0.726);
+}
+
+.form1 #Email {
+    width: 100%;
+    padding: 12px 3px;
+    margin: 8px 0;
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    background-color: #297373;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.form1 #E-mail {
+    width: 100%;
+    padding: 12px 3px;
+    margin: 8px 0;
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    background-color: #297373;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.form1 #E-mail::placeholder {
+    font-family: 'Oswald', 'Arial';
+    text-align: center;
+    color: #ffffff;
+}
+
+.form1 #back2{
+    cursor: pointer;
+    width: 50%;
+    padding: 12px 3px;
+    margin: 8px 0;
+    color: #39393A;
+    border-color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Oswald', 'Arial';
+    border-radius: 30px;
+}
+
+#back2:hover{
+    transform: scale(1.1);
+    background-color: rgba(207, 63, 171, 0.726);
+}
+
+.form1 #back2::placeholder {
+    font-family: 'Oswald', 'Arial';
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.form1 input ::placeholder{
+    font-family: 'Oswald', 'Arial';
+    text-align: center;
+}
+
+.form1 button {
+    font-family: 'Oswald', 'Arial';
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+}
+
+.form1 #login::placeholder {
+    font-family: 'Oswald', 'Arial';
+    text-align: center;
+    color: #ffffff;
+}
+
+.form1 #Password::placeholder {
+    font-family: 'Oswald', 'Arial';
+    text-align: center;
+    color: #ffffff;
+}
+
+.form1 #Email::placeholder{
+    font-family: 'Oswald', 'Arial';
+    color: white;
+    text-align: center;
+}
+
+.form1 #Serviço {
+    margin: 12px auto;
+    font-family: 'Oswald', 'Arial';
+    font-size: 50px;
+    color: #000000;
+    border-color: #000000;
+    text-decoration: none;
+    text-shadow: 12px auto;
+}
+
+.senhaesq a{
+    font-family: 'Oswald', 'Arial';
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.criarc a{
+    font-family: 'Oswald', 'Arial';
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.mudançatexto p{
+    font-family: 'Oswald', 'Arial';
+    color: rgb(0, 0, 0);
+}
